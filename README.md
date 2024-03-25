@@ -1,9 +1,14 @@
+<p align="center">
+  <img src="images/logo.svg" width="250" height="200" alt="Logo">
+</p>
+
 # Compact Energy System Modeling Tool (CESM)
 This is a compact energy system modeling tool that can model different forms of energy carriers and the conversion processes that convert them to each other. 
 The optimal output of the model determines how much should be invested in each part of the energy system to meet the energy demand and minimize costs.
 
 An example of the German energy system is also provided. The results of the model are compatible with the results of the paper "Barbosa, Julia, Christopher Ripp, and Florian Steinke. Accessible Modeling of the German Energy Transition: An Open, Compact, and Validated Model. Energies 14, no. 23 (2021)"
 
+![image description](images/plot.png)
 
 ## Installation
 Download and Install the following software from their official websites:
@@ -53,7 +58,8 @@ Then you can open the documentation from *docs/build/html/index.html*.
 
 
 ## Citation
-If you use the OCGModel in your research, please cite the original paper:
+If you use this software in your research, please cite this repository.
+If you use the German energy transition model in your research, please cite the original paper:
 
     Barbosa, J.; Ripp, C.; Steinke, F. Accessible Modeling of the German Energy Transition: An Open, Compact, and Validated Model. Energies 2021, 14, 8084. https://doi.org/10.3390/en14238084
 
@@ -74,5 +80,5 @@ For Bibtex you can use the following:
 	}
 
 ## License
-The project is licensed under the Apache License - see the [LICENSE.md](LICENSE.md) file for details.
+The project is licensed under the MIT license - see the [LICENSE.md](LICENSE.md) file for details.
 
